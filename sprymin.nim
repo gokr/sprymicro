@@ -21,9 +21,9 @@
 # Copyright (c) 2015 Göran Krampe
 
 import os
-import spryvm/vm
-import spryvm/core
-import spryvm/io
+import spryvm/spryvm
+import spryvm/sprycore
+import spryvm/spryio
 
 # Just run a given file as argument, the hash-bang trick works also
 let fn = commandLineParams()[0]

@@ -1,7 +1,7 @@
 # Spry Micro Language interpreter demo
 
-import spryvm/vm
-import spryvm/core
+import spryvm/spryvm
+import spryvm/sprycore
 
 # Just run an embedded string and verify it did the right thing
 var spry = newInterpreter()
